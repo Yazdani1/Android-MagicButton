@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="androidsqlite.com.magicbutton.MainActivity">
+
+    <br.com.bloder.magic.view.MagicButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first"
+        app:hide_text="FaceBook"
+        app:magic_button_size="50dp"
+        app:button_icon_height="25dp"
+        app:hide_text_color="#fff"
+        app:button_icon_width="25dp"
+        app:button_icon="@drawable/a"
+        app:icon_button_color="@color/colorPrimary"
+        app:expandable_area_color="@color/colorAccent"
+        />
+
+</RelativeLayout>
